@@ -3,8 +3,6 @@ package co.com.udem.nomina.hilo;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-
-import co.com.udem.nomina.main.NominaMain;
 import co.com.udem.nomina.util.LecturaArchivo;
 
 public class ProcesadorArchivo implements Runnable{
