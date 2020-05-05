@@ -12,11 +12,6 @@ public class LecturaArchivoTest {
 		assertEquals("", lectura);
 	}
 	
-	@Test
-	public void leerRegistro() {
-		String registro = "duban,perea chaverra,1077440737,ingeniero,5000000";
-		lecturaArchivo.leerRegistro(registro);
-		assertEquals("loli,perea chaverra,35897001,coordinadora,3000000", registro);
-	}
+
 	
 }
